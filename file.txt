@@ -1,0 +1,15 @@
+Démarer un projet React js
+npx create-react-app <Name project> --use-npm
+cd <Name project>
+npm install -D tailwindcss
+npx tailwindcss init
+npm i react-scroll
+npm install react-icons --save
+npm install react-router-dom
+npm install react-slick
+npm install react-date-range
+npm install date-fns
+npm install slick-carousel
+npm install postcss
+npm install --save react-notification-badge
+npm run start to open 

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  @apply text-5xl font-semibold capitalize text-center my-8;
+}
+.title-details-produit {
+  @apply text-2xl font-semibold capitalize text-center my-8;
+}
+.title-category {
+  @apply text-xl font-semibold capitalize text-center my-2;
+}
+.input-style {
+  @apply border border-gray-400 py-1 px-2 rounded-lg;
+}
+
+/* styles.css */
+.light-mode-icon {
+  background-color: #fff; /* blanc */
+  color: #fff; /* noir ou une couleur contrastante */
+}
+
+.dark-mode-icon {
+  background-color: #f32b2b; /* gris clair */
+  color: #fff; /* blanc ou une couleur contrastante */
+}
+.slick-slide {
+  padding-right: 2rem;
+}
+.slick-prev,
+.slick-next {
+  border-radius: 50%; /* Makes the button round */
+  color: #00b8c4; /* Arrow color */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #00b8c4; /* Arrow color */
+  font-size: 20px; /* Arrow size */
+}
+.slick-dots li button {
+  width: 12px; /* Size of dots */
+  height: 12px; /* Size of dots */
+  padding: 0;
+  border: none;
+}
+
+.slick-dots li button:before {
+  content: "•"; /* Ensures dot uses bullet character */
+  font-size: 12px; /* Size of dots */
+  line-height: 12px; /* Aligns the dot vertically */
+  color: #00b8c4; /* Default color for non-active dots */
+  opacity: 0.3; /* Slightly transparent when not active */
+}
+
+/* Custom styling for active dot */
+.slick-dots li.slick-active button:before {
+  color: #00b8c4;
+  opacity: 1;
+}

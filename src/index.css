@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1f1d1d; /* Fond noir */
+  color: #fff; /* Texte blanc */
+}
+
+.with-line {
+  position: relative;
+}
+
+.with-line::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px; /* Hauteur de la ligne */
+  background-color: #fff; /* Couleur de la ligne */
+  transition: width 0.3s; /* Animation de la largeur de la ligne */
+  width: 0; /* Démarrez avec une largeur de 0 */
+}
+
+.with-line:hover::after {
+  width: 100%; /* Lorsque survolé, la ligne prend toute la largeur */
+}
+.with-line2 {
+  position: relative;
+}
+
+.with-line2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px; /* Hauteur de la ligne */
+  background-color: #1f1d1d; /* Couleur de la ligne */
+  transition: width 0.3s; /* Animation de la largeur de la ligne */
+  width: 0; /* Démarrez avec une largeur de 0 */
+}
+
+.with-line2:hover::after {
+  width: 100%; /* Lorsque survolé, la ligne prend toute la largeur */
+}
