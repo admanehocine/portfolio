@@ -1,0 +1,87 @@
+[
+  {"id":"0",
+  "title":"Talentain",
+  "img":"talentain.jpg",
+  "link":"",
+  "category":"Web"
+  },
+  {"id":"1",
+  "title":"Bi2S",
+  "img":"bi2s.jpg",
+  "link":"",
+  "category":"Web"
+  },
+  {"id":"2",
+  "title":"Lokma",
+  "img":"lokma.jpg",
+  "link":"https://lokma-esgen.edu.dz/",
+  "category":"Web"
+  },
+  {"id":"3",
+  "title":"Site DZTABIB",
+  "img":"dztabib_site.png",
+  "link":"https://dztabib.com/",
+  "category":"Web"
+  },
+  {"id":"4",
+  "title":"Baap",
+  "img":"baap.jpg",
+  "link":"https://benalipartners.com/",
+  "category":"Web"
+  },
+  {"id":"5",
+  "title":"Cons",
+  "img":"site1.jpg",
+  "link":"https://nidalmohammedi.github.io/cons.github.io/",
+  "category":"Web"
+  },
+  {"id":"6",
+  "title":"DEM DZ",
+  "img":"SITE2.jpg",
+  "link":"https://nidalmohammedi.github.io/Dem.github.io/",
+  "category":"Web"
+  },
+  {"id":"7",
+  "title":"APHYS",
+  "img":"aphys.jpg",
+  "link":"",
+  "category":"App"
+  },
+  {"id":"8",
+  "title":"App DZTABIB",
+  "img":"dztabib_app.jpg",
+  "link":"https://play.google.com/store/apps/details?id=com.dztabib.tabib_dz",
+  "category":"App"
+  },
+  {"id":"9",
+  "title":"VTC",
+  "img":"vtc.jpg",
+  "link":"https://www.choukislimvtc.com/",
+  "category":"Web"
+  },
+  {"id":"10",
+  "title":"Desinfect Pro",
+  "img":"Desinfect Pro.png",
+  "link":"https://play.google.com/store/apps/details?id=com.Digital_Wave.desinfectpro",
+  "category":"App"
+  },
+  {"id":"11",
+  "title":"cross-lingue",
+  "img":"crosslingue.png",
+  "link":"https://github.com/admanehocine/detection_plagiat_cross-lingues",
+  "category":"Web"
+  },
+  {"id":"12",
+  "title":"Beniane Vendor",
+  "img":"Beniane-Vendor.png",
+  "link":"https://beniane.com/",
+  "category":"App"
+  },
+  {"id":"13",
+  "title":"NestBooking",
+  "img":"nestbooking.png",
+  "link":"https://github.com/admanehocine/",
+  "category":"Web"
+  }
+]
+
