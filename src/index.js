@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router } from 'react-router-dom'; // Import HashRouter
 import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <Router>
+  <React.StrictMode>
     <App />
-  </Router>,
+  </React.StrictMode>,
   document.getElementById('root')
 );

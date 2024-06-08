@@ -3,13 +3,19 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
   const navItems = [
-    { title: "À PROPOS", path: "#about" },
-    { title: "SERVICES", path: "#services" },
-    { title: "RÉALISATIONS", path: "#realisation" },
-    { title: "TECHNOLOGIES", path: "#technologie" },
+    { title: "À PROPOS", path: "about" },
+    { title: "SERVICES", path: "services" },
+    { title: "RÉALISATIONS", path: "realisation" },
+    { title: "TECHNOLOGIES", path: "technologie" },
     //{ title: "CONTACT", path: "#contact" },
   ];
 
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -50,7 +56,14 @@ export const Navbar = () => {
           <ul className="lg:flex items-center justify-between text-color2 hidden ">
             {navItems.map(({ title, path }) => (
               <li key={title} className="with-line hover:text-color10  mr-5  ">
-                <a className="font-bold font-Poppins text-lg" href={path}>
+                <a
+                  className="font-bold font-Poppins text-lg"
+                  href={`#${path}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleScroll(path);
+                  }}
+                >
                   {title}
                 </a>
               </li>
@@ -58,7 +71,11 @@ export const Navbar = () => {
           </ul>
           <a
             className="hidden lg:flex font-bold font-Poppins text-lg text-white  px-2 py-1 rounded-xl "
-            href="#contact"
+            href={`#contact`}
+            onClick={(e) => {
+              e.preventDefault();
+              handleScroll("contact");
+            }}
             style={{
               background: "linear-gradient(to right, #7AD6DD, #0F7880)",
             }}

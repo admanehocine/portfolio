@@ -4,14 +4,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa6";
-import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
-  const scrollToTop = () => {
-    scroll.scrollToTop({
-      duration: 500, // Durée de l'animation en millisecondes
-      smooth: "easeInOutQuart", // Fonction d'animation pour un mouvement en douceur
-    });
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
   // const currentYear=new Date();//-getFullYear();
   return (
@@ -35,7 +34,13 @@ const Footer = () => {
               <FaGithub className="h-8 w-8   text-black px-1 py-1 bg-color11 rounded-3xl hover:bg-color10 cursor-pointer " />
             </a>
           </div>
-          <a href="#start" onClick={scrollToTop}>
+          <a
+            href={`#start`}
+            onClick={(e) => {
+              e.preventDefault();
+              handleScroll("start");
+            }}
+          >
             <FaArrowUp className="h-8 w-8 ml-2 mr-2   text-black px-1 py-1 bg-color11  hover:bg-color10 cursor-pointer rounded-3xl" />
           </a>
           <div className="flex flex-row justify-between items-center ">
