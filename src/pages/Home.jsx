@@ -1,15 +1,12 @@
-import React from 'react'
-import Accueil from './Accueil'
- 
+import React from "react";
+import Accueil from "./Accueil";
+
 const Home = () => {
   return (
-    <>  
-      <Accueil/>
+    <>
+      <Accueil />
     </>
-  )
-}
+  );
+};
 
-export default Home
-
-
-
+export default Home;

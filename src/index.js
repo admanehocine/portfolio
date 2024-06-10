@@ -1,11 +1,13 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css'; // Assuming you have some global CSS here
 
 // Create a root element
-const container = document.getElementById('root');
-const root = createRoot(container);
 
-// Render your app
-root.render(<App />);
+import { HashRouter as Router } from 'react-router-dom';
+
+ReactDOM.render(
+    <Router><App /></Router>
+,document.getElementById('root')
+);
