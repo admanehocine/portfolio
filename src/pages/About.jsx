@@ -6,7 +6,7 @@ import TypingEffect from "../components/TypingEffect";
 const About = () => {
   const [visibleIndex, setVisibleIndex] = useState(0);
   const words = useMemo(
-    () => [" es sites Web", " es applications mobiles", " es logiciels"],
+    () => [" des sites Web", " des applications mobiles", " des logiciels"],
     []
   );
 
@@ -17,6 +17,7 @@ const About = () => {
 
     return () => clearInterval(interval);
   }, [visibleIndex, words]);
+
   return (
     <section id="about" className="flex flex-col gap-2 ">
       <h1 className="title flex flex-col lg:flex-row  text-color2 justify-center ">
@@ -52,7 +53,7 @@ const About = () => {
                   </p>
                   <p className="text-2xl lg:text-3xl font-semibold font-Poppins">
                     <span className="text-[#0BA2AC] mr-1 font-bold font-Poppins transition-opacity duration-500">
-                      d<TypingEffect word={words[visibleIndex]} speed={100} />
+                      <TypingEffect word={words[visibleIndex]} speed={100} />
                     </span>
                   </p>
                 </div>
