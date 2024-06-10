@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/admanehocine.github.io/portfolio/static/css/main.e1713d43.css",
-    "main.js": "/admanehocine.github.io/portfolio/static/js/main.172abc3c.js",
+    "main.js": "/admanehocine.github.io/portfolio/static/js/main.66afb472.js",
     "static/media/page.jpg": "/admanehocine.github.io/portfolio/static/media/page.63e92d4b5db6d00a9ab5.jpg",
     "static/media/bi2s.jpg": "/admanehocine.github.io/portfolio/static/media/bi2s.af78bad1837743b93719.jpg",
     "static/media/tms.jpg": "/admanehocine.github.io/portfolio/static/media/tms.44a95dbcc613a42ce8c2.jpg",
@@ -52,10 +52,10 @@
     "static/media/slick.woff": "/admanehocine.github.io/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/admanehocine.github.io/portfolio/index.html",
     "main.e1713d43.css.map": "/admanehocine.github.io/portfolio/static/css/main.e1713d43.css.map",
-    "main.172abc3c.js.map": "/admanehocine.github.io/portfolio/static/js/main.172abc3c.js.map"
+    "main.66afb472.js.map": "/admanehocine.github.io/portfolio/static/js/main.66afb472.js.map"
   },
   "entrypoints": [
     "static/css/main.e1713d43.css",
-    "static/js/main.172abc3c.js"
+    "static/js/main.66afb472.js"
   ]
 }
