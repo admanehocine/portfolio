@@ -144,7 +144,7 @@ export const Navbar = () => {
                   className="hover:text-color10 my-3 mx-3 cursor-pointer with-line"
                 >
                   <a
-                    href={path}
+                    href={"#" + path}
                     onClick={closeMenu}
                     className="text-4xl mt-10 font-bold font-Poppins "
                   >
